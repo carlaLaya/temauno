@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>clase bootstrap</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="shortcut icon" href="imagenes/logoprin.png">
+  </head>
+    <nav class="navbar navbar-dark bg-dark fixed-top;bg-success p-2 text-dark bg-opacity-10">
+      <div class="container-fluid">
+        <img src="imagenes/logoprin.png" alt="Logo" width="75" height="75" class="d-inline-block align-text-top">
+        <a class="responsive-font-example" href="index.html">Librería y Papelería</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Inicio</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="compraonline.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sucursal.html">Sucursal</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="contacto.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                 Contacto
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="contacto.html">Alta Cliente</a></li>
+                  <li><a class="dropdown-item" href="#">Contáctenos</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex mt-3" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <body class="bg-success p-2 text-dark bg-opacity-25">
+        <div class="container">
+          <h1 class="text-center">Libreria TEMA UNO</h1>
+          <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active text-center">
+                <img src="imagenes/abrochadora2.jpg" class="d-block w-40 rounded mx-auto d-block" alt="...">
+                <a>Perforadora de papel, equipo de herramienta de oficina</a>
+              </div>
+              <div class="carousel-item text-center">
+                <img src="imagenes/marcadores-giotto-bebe1.jpg" class="d-block w-40 rounded mx-auto d-block" alt="...">
+                <a>Fibras Marcadores Giotto Bebe X 12 Maxi Gruesos Mordillo</a>
+              </div>
+              <div class="carousel-item text-center">
+                <img src="imagenes/acuarelas-giotto.jpg" class="d-block w-40 rounded mx-auto d-block" alt="...">
+                <a>Marcadores Fibras Giotto Turbo Color X20 Colores Mp Adrogue</a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </body >
+        <div>
+          <a>   &nbsp </a>
+        </div>
+      
+      <div class="text-bg-success p-3">
+        <div class="text-center">
+          <p style="color: white">ENVÍOS A TODO EL PAÍS</p>
+          <h4>Envío GRATIS a San Martín de los Andes en compras superiores a $ 3.000</h4>
+          <h6>Creado por Carla Laya</h6>
+        </div container>
+        <a href="https://www.instagram.com/tema_uno/" target="_blank">
+        <img src="imagenes/logoIG.png" alt="HTML tutorial"  style="width:32px;height:32px;" class="mx-auto d-block">
+        <a href="https://es-la.facebook.com/libreriatemauno/" target="_blank">
+        <img src="imagenes/logofk.png" alt="HTML tutorial"  style="width:32px;height:32px;" class="mx-auto d-block">
+        </a>
+      </div>
+      <!-- JavaScript Bundle with Popper -->
+      <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+      ></script>
+
+</html>
